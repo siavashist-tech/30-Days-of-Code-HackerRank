@@ -1,1 +1,2 @@
-# 30-Days-of-Code---HackerRank
+# 30-Days-of-Code-HackerRank
+ALL QUESTIONS ARE SOLVED IN PYTHON3.
