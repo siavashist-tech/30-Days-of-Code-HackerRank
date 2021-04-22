@@ -1,0 +1,13 @@
+#PYTHON FILE
+
+NUM = int(input())
+
+if NUM % 2 != 0:
+    print("Weird")
+else:
+    if NUM <= 5:
+        print("Not Weird")
+    elif NUM <= 20:
+        print("Weird")
+    else:
+        print("Not Weird")
