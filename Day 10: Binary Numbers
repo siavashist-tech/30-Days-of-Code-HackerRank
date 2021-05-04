@@ -1,0 +1,27 @@
+
+import math
+import os
+import random
+import re
+import sys
+
+
+
+if __name__ == '__main__':
+    Num = int(input().strip())
+
+result = 0
+maximum = 0
+
+while Num > 0:
+    if Num % 2 == 1:
+        result += 1
+        if result > maximum:
+            maximum = result
+
+    else:
+        result = 0
+
+    Num //= 2
+
+print(maximum)
