@@ -1,0 +1,9 @@
+# Complete the 'factorial' function below.
+#
+# The function is expected to return an INTEGER.
+# The function accepts INTEGER n as parameter.
+#
+
+def factorial(Fnum):
+    return 1 if Fnum == 1 else factorial(Fnum - 1) * Fnum
+    print(factorial(int(input())))
